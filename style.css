@@ -138,13 +138,13 @@ body {
   gap: 50px;
 }
 
-.bottom-section .nav-class {
+/* .bottom-section .nav-class {
   display: flex;
   flex-direction: row;
   gap: 50px;
   align-items: center;
 
-}
+} */
 
 .nav-class button {
   background: none;
@@ -1122,6 +1122,7 @@ swiper-container.mySwiper{
 
   .head1 p {
     font-size: 15px;
+    max-width: 50%;
   }
 
   .card-rows {
@@ -1186,6 +1187,8 @@ swiper-container.mySwiper{
 
   .logos {
     flex-wrap: wrap;
+    justify-content: space-between;
+
   }
 
   .feature,
@@ -1205,6 +1208,30 @@ swiper-container.mySwiper{
 .grid-container{
   display: flex;
   flex-direction: column;
+}
+.container-3
+ h1{
+  font-size: 35px;
+}
+.container-3 p{
+  font-size: 16px;
+  max-width: none;
+}
+.section-8-down h1{
+  font-size: 27px;
+  text-align: center;
+}
+.section-8-down p{
+  text-align: center;
+}
+.container-2 h1{
+  font-size: 35px;
+}
+.container-2 p{
+  font-size: 14px;
+}
+.container-4 p{
+  font-size: 16px;
 }
 }
 
@@ -1271,6 +1298,7 @@ swiper-container.mySwiper{
     font-size: 14px;
     text-align: center;
   }
+
 } 
 
 
