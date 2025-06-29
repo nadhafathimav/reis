@@ -16,7 +16,7 @@ body {
 }
 
 .container-1 {
-  background: linear-gradient(rgba(6, 48, 83, 0.6), rgba(6, 48, 83, 0.1)), url("8424528e50c4af0efff90c5430b64543f30d1a36\ \(6\).jpg");
+  background: linear-gradient(rgba(6, 48, 83, 0.6)), url("8424528e50c4af0efff90c5430b64543f30d1a36\ \(6\).jpg");
   background-size: cover;
   color: white;
   width: 100%;
@@ -54,6 +54,7 @@ body {
   justify-content: space-between;
   /*gap: 80px;*/
   padding: 0px 100px;
+  padding-top: 28px;
 }
 
 .top-section nav {
@@ -96,7 +97,7 @@ body {
 }
 
 .head1 p {
-  max-width: 35%;
+  max-width: 45%;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -184,6 +185,7 @@ body {
   z-index: 10;
   padding: 20px;
   box-sizing: border-box;
+  box-shadow: 0px 25.7px 72.81px 0px #3B4D8133;
 
 }
 
@@ -439,7 +441,7 @@ body {
 .container-3 p {
   color: #889099;
   font-weight: 400;
-  font-size: 20px;
+  font-size:20px;
   max-width: 60%;
   text-align: center;
 
@@ -449,6 +451,7 @@ body {
   color: #1E2640;
   font-weight: 600;
   font-size: 40px;
+  margin-bottom: 4px;
 
 }
 
@@ -458,6 +461,8 @@ body {
   align-items: space-between;
   gap: 15px;
   justify-content: center;
+  padding-top: 50px;
+  max-width: 100%;
 }
 
 .groups .group-1:hover {
@@ -586,9 +591,15 @@ body {
   flex-direction: column;
   gap: 16px;
 }
-
+.para p{
+  font-size: 23px;
+  font-weight: 400;
+  margin: 3px;
+}
 .para .p1 {
-  color: blue;
+  color: #4A60A1;
+  font-weight:600;
+  font-size: 18px;
 }
 
 .cont1 {
@@ -604,31 +615,31 @@ body {
   flex-direction: row;
   width: 100%;
   gap: 24px;
-  padding-bottom: 16px;
-  padding-top: 16px;
+/*  padding-bottom: 16px;
+  padding-top: 16px;*/
 }
-
-.car p {
-  font-size: 10px;
+  .car p {
+  font-size: 15px;
   color: grey;
 }
 
 .car1 {
   display: flex;
   align-items: center;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .bathtub {
   display: flex;
   align-items: center;
-  width: 100%;
+  /*width: 100%;*/
 }
 
 .arrow {
   display: flex;
   align-items: center;
-  width: 100%;
+ /* width: 100%;*/
+
 }
 
 .pics {
@@ -646,7 +657,7 @@ body {
 
 .container-4 button {
   display: flex;
-  background-color: blueviolet;
+  background-color: #4A60A1;
   color: white;
   padding: 12px 24px;
   justify-content: center;
@@ -670,8 +681,8 @@ body {
   height: auto;
   display: block;
   object-fit: cover;
-  border-radius: 10px;
-  /* optional, matches card styling */
+ /* border-radius: 10px;*/
+    /* optional, matches card styling */
 }
 
 .container-6 {
@@ -714,10 +725,10 @@ body {
 }
 
 .container-6 p {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   line-height: 28px;
-  max-width: 50%;
+  max-width: 60%;
   margin: 0;
 }
 
@@ -736,8 +747,11 @@ body {
   width: 100%;
   justify-content: space-between;
   padding: 100px;
-}
 
+}
+.container-7 p{
+  margin: 0;
+}
 .sctn7 {
   display: flex;
   flex-direction: column;
@@ -772,11 +786,11 @@ body {
   font-weight: 600;
   color: rgba(27, 29, 31, 1);
 }
-
 .sctn7b {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  
 }
 
 .calls {
@@ -1122,7 +1136,8 @@ swiper-container.mySwiper{
 
   .head1 p {
     font-size: 15px;
-    max-width: 50%;
+    max-width: 100%;
+    padding: 5px;
   }
 
   .card-rows {
@@ -1158,6 +1173,13 @@ swiper-container.mySwiper{
 
   .search-container>{
     width: 100%;
+  }
+  .container-6 p{
+    max-width: 100%;
+    font-size: 15px;
+  }
+  .container-6 h1{
+    font-size: 30px;
   }
 
   .container-7 {
@@ -1223,6 +1245,7 @@ swiper-container.mySwiper{
 }
 .section-8-down p{
   text-align: center;
+
 }
 .container-2 h1{
   font-size: 35px;
