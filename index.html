@@ -426,95 +426,95 @@
         </div>
     </div>
 
-<div class="section-8-down">
-    <h1>Letest Properties of Rent</h1>
-    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.</p>
+    <div class="section-8-down">
+            <div class="head5">
+                <h1>Letest Properties of Rent</h1>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sodales
+                    ultrices nulla blandit volutpat.</p>
+            </div>
+            <!-- Swiper Container -->
+            <swiper-container class="mySwiper" loop="true" centered-slides="true">
+                 
+                <swiper-slide>
+                    <div class="slide-box">
+                        <img src="Group 77.png" alt="" />
+                    </div>
+                </swiper-slide>
 
-    <!-- Swiper Container -->
-    <swiper-container class="mySwiper" loop="true" centered-slides="true">
-      <swiper-slide>
-        <div class="slide-box">
-          <img src="Group 77.png" alt="" />
+                <swiper-slide>
+                    <div class="slide-box">
+                        <img src="Group 8.png" alt="" />
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="slide-box">
+                        <img src="Group 9.png" alt="" />
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="slide-box">
+                        <img src="Group 10 (1).png" alt="" />
+                    </div>
+                </swiper-slide>
+              
+
+
+            </swiper-container>
+
+            <!-- Navigation Buttons -->
+            <div class="custom-buttons">
+                <button id="prevBtn"><i class="fa-solid fa-arrow-left"></i></button>
+                <button id="nextBtn"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
         </div>
-      </swiper-slide>
 
-      <swiper-slide>
-        <div class="slide-box">
-          <img src="Group 8.png" alt="" />
-        </div>
-      </swiper-slide>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
-      <swiper-slide>
-        <div class="slide-box">
-          <img src="Group 9.png" alt="" />
-        </div>
-      </swiper-slide>
+        <script>
+            const swiperEl = document.querySelector('.mySwiper');
 
-      <swiper-slide>
-        <div class="slide-box">
-          <img src="Group 10 (1).png" alt="" />
-        </div>
-      </swiper-slide>
+            Object.assign(swiperEl, {
+                loop: true,
+                centeredSlides: true,
+                breakpoints: {
+                    0: {
+                        slidesPerView: 1.25,
+                        spaceBetween: 10,
+                    },
+                    640: {
+                        slidesPerView: 2.25,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 3.25,
+                        spaceBetween: 30,
+                    },
+                    1024: {
+                        slidesPerView: 4.25,
+                        spaceBetween: 40,
+                    },
+                },
+            });
 
-      
-    </swiper-container>
+            swiperEl.initialize();
 
-    <!-- Navigation Buttons -->
-    <div class="custom-buttons">
-      <button id="prevBtn"><i class="fa-solid fa-arrow-left"></i></button>
-      <button id="nextBtn"><i class="fa-solid fa-arrow-right"></i></button>
-    </div>
-  </div>
+            setTimeout(() => {
+                const swiper = swiperEl.swiper;
+                document.getElementById('prevBtn').addEventListener('click', () => swiper.slidePrev());
+                document.getElementById('nextBtn').addEventListener('click', () => swiper.slideNext());
+            }, 100);
+        </script>
 
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
-  <script>
-    const swiperEl = document.querySelector('.mySwiper');
-
-    Object.assign(swiperEl, {
-      loop: true,
-      centeredSlides: true,
-      breakpoints: {
-        0: {
-          slidesPerView: 1,
-          spaceBetween: 10,
-        },
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 3,
-          spaceBetween: 30,
-        },
-        1024: {
-          slidesPerView: 4,
-          spaceBetween: 40,
-        },
-      },
-    });
-
-    swiperEl.initialize();
-
-    setTimeout(() => {
-      const swiper = swiperEl.swiper;
-      document.getElementById('prevBtn').addEventListener('click', () => swiper.slidePrev());
-      document.getElementById('nextBtn').addEventListener('click', () => swiper.slideNext());
-    }, 100);
-  </script>
-
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-</body>
-</html>
    
 
-
-
-
-
+      
+  
     <div class="container-6">
         <div class="paragraph">
             <h1>Find Best Place For Living</h1>
@@ -588,6 +588,9 @@
         </div>
     </div>
     </main>
+    
+   
+    
 </body>
 
 </html>

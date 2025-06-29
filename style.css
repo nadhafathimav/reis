@@ -454,6 +454,17 @@ body {
   margin-bottom: 4px;
 
 }
+/*.groups p{
+  margin: 0;
+    font-weight: 300;
+    font-size: 15px;
+    color: #6D737A
+}
+.groups h4{
+  margin: 0;
+    font-weight: 600;
+}*/
+
 
 .groups {
   display: flex;
@@ -1025,22 +1036,14 @@ swiper-container.mySwiper{
     swiper-slide button{
      position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 12px 24px;
-    background-color: transparent;
-    font-size: 10px;
-    font-weight: 500;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    border-radius: 4px;
-    z-index: 10;
-    cursor: pointer;
-
     }
-
-
-
+    .section-8-down h1{
+      text-align: center;
+    }
+    .head5 p{
+      text-align: center;
+       color: #889099;
+    }
 
 @media (max-width: 1024px) {
 .button{
